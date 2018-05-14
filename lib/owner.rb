@@ -89,9 +89,6 @@ def list_pets
   dogs = []
   cats = []
   fish = []
-  @pets.each do |pet, key|
-    end
-  end
 end
 
 end
