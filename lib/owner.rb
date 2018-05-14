@@ -39,9 +39,7 @@ end
 
 def buy_fish(name)
   name = Fish.new(name)
-  @pets.each do |p|
-    p[1] << name
-  end
+  
 end
 
 def buy_cat(name)
