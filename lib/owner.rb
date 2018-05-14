@@ -86,9 +86,7 @@ def sell_pets
 end
 
 def list_pets
-  dogs = []
-  cats = []
-  fish = []
+  puts "I have 2 #{@pets[:fishes]}, 3 #{@pets[:dogs]}, and 1 #{@pets[:cats]} }"
 end
 
 end
