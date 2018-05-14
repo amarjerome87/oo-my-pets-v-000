@@ -42,17 +42,11 @@ def buy_fish(name)
 end
 
 def buy_cat(name)
-  name = Cat.new(name)
-  @pets.each do |p|
-    p[1] << name
-  end
+  pets[:cats] <<  Fish.new(name)
 end
 
 def buy_dog(name)
-  name = Dog.new(name)
-  @pets.each do |p|
-    p[1] << name
-  end
+  pets[:dogs] <<  Fish.new(name)
 end
 
 def walk_dogs
