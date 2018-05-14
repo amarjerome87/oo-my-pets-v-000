@@ -86,7 +86,6 @@ def sell_pets
 end
 
 def list_pets
-  binding.pry
   return "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
 end
 
